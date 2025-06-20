@@ -30,7 +30,7 @@ This is a simple and interactive **SMS Spam Detection System** built using **Mac
 1. Clone the repository:
 `
 git clone https://github.com/Soumodeep084/SMS-Spam-Detection-System-ML.git
-cd fake-news-app-ml-project
+cd sms-spam-detection-system-ml
 `
 
 
