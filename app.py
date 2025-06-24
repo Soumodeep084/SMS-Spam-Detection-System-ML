@@ -10,16 +10,19 @@ st.set_page_config(page_title="SMS Spam Classifier", page_icon="📱", layout="c
 # Custom Styling
 st.markdown(
     """
-    <style>
-    .main {
-        background-color: #f0f8ff;
-        padding: 10px;
-        border-radius: 10px;
-    }
+     <style>
+        .block-container {
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+        }
+        .css-z5fcl4 {
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+        }
+        header {visibility: hidden;}
+        .css-1vq4p4l {padding: 0rem;}
     </style>
-    """,
-    unsafe_allow_html=True
-)
+    """, unsafe_allow_html=True)
 
 # App Title
 st.title("📱 SMS Spam Detection App")
